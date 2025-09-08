@@ -3,53 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV - Carlo Fagasto</title>
+  <title>CV Saya</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="cv-container">
-    <aside class="sidebar">
-      <div class="profile">
-        <img src="foto.jpg" alt="Foto Profil">
-        <h2>CARLO FAGASTO</h2>
-        <p>Tanggal lahir: 17 Januari 2006</p>
-      </div>
-      <div class="contact">
-        <ul>
-          <li> fagastocarlo@gmail.com</li>
-          <li> 0851-5711-3664</li>
-          <li> DKI Jakarta, Jakarta Barat, 11170</li>
-        </ul>
-      </div>
-    </aside>
+  <header>
+    <nav class="navbar">
+      <h1>Carlo Fagasto</h1>
+      <ul>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#education">Pendidikan</a></li>
+        <li><a href="#skills">Keahlian</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main class="main-content">
-      <section>
-        <h3>PENGALAMAN</h3>
-        <ul>
-          <li> Bergabung dalam kepanitiaan acara sekolah (Rexar 2023)</li>
-          <li> Bekerja freelance sebagai video editor</li>
-        </ul>
-      </section>
+  <section class="hero">
+    <img src="foto.jpg" alt="Foto Profil">
+    <h2>Halo, saya <span>Carlo Fagasto</span></h2>
+    <p>Seorang Mahasiswa / Web Developer / Video Editor</p>
+  </section>
 
-      <section>
-        <h3>PENDIDIKAN</h3>
-        <ul>
-          <li> Universitas Tarumanagara - Indonesia (2024-2028)</li>
-          <li> SMA Kristen 2 Penabur Jakarta (2021-2024)</li>
-          <li> SMP Kristen 1 Penabur Jakarta (2018-2021)</li>
-        </ul>
-      </section>
+  <section id="pengalaman" class="container">
+    <h2>Pengalaman</h2>
+    <p>
+      <li>Bergabung dalam kepanitiaan acara sekolah</li>
+      <li>Freelance sebagai video editor selama 1 tahun</li>
+    </p>
+  </section>
 
-      <section>
-        <h3>SKILLS</h3>
-        <ul>
-          <li> Bekerja sama sebagai tim</li>
-          <li> Mampu menjelaskan produk</li>
-          <li> Mampu berkomunikasi dengan pelanggan</li>
-        </ul>
-      </section>
-    </main>
-  </div>
+  <section id="pendidikan" class="container">
+    <h2>Pendidikan</h2>
+    <p>
+      <li><strong>Universitas Tarumanagara</strong> - S1 Teknik Informatika (2022 - 2024)</li>
+      <li><strong>SMAK 2 Penabur</strong> - Jurusan IPS (2021 - 2024)</li>
+    </p>
+  </section>
+
+  <section id="keahlian" class="container">
+    <h2>Keahlian</h2>
+    <div class="skills-grid">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">Python</div>
+      <div class="skill">C++</div>
+    </div>
+  </section>
+
+  <section id="kontak" class="container">
+    <h2>Kontak</h2>
+    <p>Email: <a href="carlo.535240139@stu.ac.id">carlo.535240139@stu.ac.id</a></p>
+    <p>GitHub: <a href="https://github.com/rinosen17">https://github.com/rinosen</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Carlo Fagasto. All rights reserved.</p>
+  </footer>
 </body>
 </html>
